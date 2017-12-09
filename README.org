@@ -1,2 +1,12 @@
 * Gatakawa
 My learning of Gtk basics on Haskell.
+** Inspired by
+https://github.com/haskell-gi/haskell-gi
+https://github.com/haskell-gi/gi-gtk-examples/blob/master/buttonbox/ButtonBox.hs
+https://github.com/haskell-gi/gi-gtk-examples/blob/master/gtkbuilder/GtkBuilderTest.hs
+** Translating Gtk documentation
+https://github.com/haskell-gi/haskell-gi#translating-from-the-c-api-to-the-haskell-gi-generated-api
+*** Gtk documentation
+This document is for the GTK+ 3 library, version 3.22.26
+https://developer.gnome.org/gtk3/stable/
+** Working in REPL
