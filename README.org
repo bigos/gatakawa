@@ -1,0 +1,2 @@
+* Gatakawa
+My learning of Gtk basics on Haskell.
