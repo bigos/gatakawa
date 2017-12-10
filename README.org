@@ -63,7 +63,12 @@ https://developer.gnome.org/references
 
 You can use the search button in the top right corner to search the documentation.
 
-** Working in REPL
+** Tutorials
+Simple C GTK+2 tutorial http://zetcode.com/gui/gtk2/
+
+Python Gtk+3 tutorial http://python-gtk-3-tutorial.readthedocs.io/en/latest/
+
+** Working in the REPL
 
 In terminal type ~stack ghci~, it will load ghci REPL in the package context.
 If you do it in eshell you will get available functions auto-completion.
