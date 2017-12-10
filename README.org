@@ -9,6 +9,17 @@ https://github.com/haskell-gi/gi-gtk-examples/blob/master/gtkbuilder/GtkBuilderT
 ** Translating Gtk documentation
 https://github.com/haskell-gi/haskell-gi#translating-from-the-c-api-to-the-haskell-gi-generated-api
 
+*** Example function
+Makes the innermost invocation of the main loop return when it regains control.
+**** mainQuit
+https://hackage.haskell.org/package/gi-gtk-3.0.18/docs/GI-Gtk-Functions.html#v:mainQuit
+**** gtk_main_quit
+https://developer.gnome.org/gtk3/stable/gtk3-General.html#gtk-main-quit
+
+| GI.Gtk   | Gtk           |
+|----------+---------------|
+| mainQuit | gtk_main_quit |
+
 *** Gi-Gtk Documentation
 Directory listing for gi-gtk-3.0.18 documentation
 https://hackage.haskell.org/package/gi-gtk-3.0.18/docs/
