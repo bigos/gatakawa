@@ -10,27 +10,36 @@ https://github.com/haskell-gi/gi-gtk-examples/blob/master/gtkbuilder/GtkBuilderT
 https://github.com/haskell-gi/haskell-gi#translating-from-the-c-api-to-the-haskell-gi-generated-api
 
 *** Example function
+
+| GI.Gtk   | Gtk           |
+|----------+---------------|
+| mainQuit | gtk_main_quit |
+
 Makes the innermost invocation of the main loop return when it regains control.
 **** mainQuit
 https://hackage.haskell.org/package/gi-gtk-3.0.18/docs/GI-Gtk-Functions.html#v:mainQuit
 **** gtk_main_quit
 https://developer.gnome.org/gtk3/stable/gtk3-General.html#gtk-main-quit
 
-| GI.Gtk   | Gtk           |
-|----------+---------------|
-| mainQuit | gtk_main_quit |
-
 *** Example property
-Perhaps sensitive is not the best choice because of deprecation and getters/setters used nowadays.
+
+| GI.Gtk    | Gtk                  |
+|-----------+----------------------|
+| sensitive | GTK_WIDGET_SENSITIVE |
+|           |                      |
+
 **** sensitive
-+ https://hackage.haskell.org/package/gi-gtk-3.0.18/docs/GI-Gtk-Objects-Widget.html#g:156
 + https://hackage.haskell.org/package/gi-gtk-3.0.18/docs/GI-Gtk-Objects-Widget.html#g:299
 
 **** GTK_WIDGET_SENSITIVE()
 https://developer.gnome.org/gtk2/stable/GtkWidget.html#GTK-WIDGET-SENSITIVE:CAPS
 
-
 *** Example signal
+
+| GI.Gtk          | Gtk       |
+|-----------------+-----------|
+| onButtonClicked | "clicked" |
+
 **** onButtonClicked
 https://hackage.haskell.org/package/gi-gtk-3.0.18/docs/GI-Gtk-Objects-Button.html#v:onButtonClicked
 
