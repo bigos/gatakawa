@@ -24,7 +24,6 @@ main = do
   on button1 #clicked (set button1 [ #sensitive := False,
                                    #label := "Thanks for clicking here" ])
 
-
   -- https://github.com/haskell-gi/gi-gtk-examples/blob/master/buttonbox/ButtonBox.hs
   button2 <- new Gtk.Button [ #label := "Two"]
   on button2 #clicked (putStrLn "second button clicked")
