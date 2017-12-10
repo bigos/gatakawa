@@ -11,7 +11,6 @@ import GI.Gtk as Gtk hiding (main)
 import GI.Gtk.Enums
        (Orientation(..), WindowType(..), ButtonBoxStyle(..))
 
-
 main :: IO ()
 main = do
   Gtk.init Nothing
