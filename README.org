@@ -21,8 +21,9 @@ https://developer.gnome.org/gtk3/stable/gtk3-General.html#gtk-main-quit
 | mainQuit | gtk_main_quit |
 
 *** Example property
-Perhaps sensitive is not the best choice because of deprecation
+Perhaps sensitive is not the best choice because of deprecation and getters/setters used nowadays.
 **** sensitive
+https://hackage.haskell.org/package/gi-gtk-3.0.18/docs/GI-Gtk-Objects-Widget.html#g:156
 https://hackage.haskell.org/package/gi-gtk-3.0.18/docs/GI-Gtk-Objects-Widget.html#g:299
 
 **** GTK_WIDGET_SENSITIVE()
