@@ -32,3 +32,15 @@ If you do it in eshell you will get available functions auto-completion.
 
 Typing ~:browse *Main~ will give you a list of interesting data that can be
 searched with Emacs.
+
+Typing ~Gtk.ma~ will offer auto-completion for ~mainquit~, pressing Enter will
+prompt you the correct case.
+#+BEGIN_EXAMPLE
+*Main> Gtk.mainquit
+
+<interactive>:3:1: error:
+    Not in scope: ‘Gtk.mainquit’
+    Perhaps you meant ‘Gtk.mainQuit’ (imported from GI.Gtk)
+    No module named ‘Gtk’ is imported.
+*Main>
+#+END_EXAMPLE
