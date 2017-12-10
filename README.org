@@ -20,6 +20,22 @@ https://developer.gnome.org/gtk3/stable/gtk3-General.html#gtk-main-quit
 |----------+---------------|
 | mainQuit | gtk_main_quit |
 
+*** Example property
+Perhaps sensitive is not the best choice because of deprecation
+**** sensitive
+https://hackage.haskell.org/package/gi-gtk-3.0.18/docs/GI-Gtk-Objects-Widget.html#g:299
+
+**** GTK_WIDGET_SENSITIVE()
+https://developer.gnome.org/gtk2/stable/GtkWidget.html#GTK-WIDGET-SENSITIVE:CAPS
+
+
+*** Example signal
+**** onButtonClicked
+https://hackage.haskell.org/package/gi-gtk-3.0.18/docs/GI-Gtk-Objects-Button.html#v:onButtonClicked
+
+**** The “clicked” signal
+https://developer.gnome.org/gtk3/stable/GtkButton.html#GtkButton-clicked
+
 *** Gi-Gtk Documentation
 Directory listing for gi-gtk-3.0.18 documentation
 https://hackage.haskell.org/package/gi-gtk-3.0.18/docs/
