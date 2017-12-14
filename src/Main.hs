@@ -16,12 +16,13 @@ main = do
   _ <-  Gtk.init Nothing
 
   win <- new Gtk.Window [ #title := "Hi there" ]
-  _ <- on win #destroy Gtk.mainQuit
+  -- replaced with Gtkish version-- _ <- on win #destroy Gtk.mainQuit
+  _ <- Gtk.onWidgetDestroy win Gtk.mainQuit
 
   hbuttonbox <- buttonBoxNew OrientationHorizontal
 
   button1 <- new Gtk.Button [ #label := "Click me" ]
-  _<-  on button1 #clicked (set button1 [ #sensitive := False,
+  _ <- onButtonClicked button1 (set button1 [ #sensitive := False,
                                    #label := "Thanks for clicking here" ])
 
   -- https://github.com/haskell-gi/gi-gtk-examples/blob/master/buttonbox/ButtonBox.hs
@@ -47,5 +48,5 @@ main = do
   #add win hbuttonbox
 
   widgetShowAll win
-  -- #showAll win
+
   GI.main
